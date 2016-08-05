@@ -333,6 +333,11 @@ table tr td{
     height: 40px;
 }
 
+    .mobile-menu-icon span {
+        position: relative;
+        top: 10px;
+    }
+
 /* Tablet View */
 @media screen and (max-width: 991px){
     .mobile-menu-icon {
@@ -368,7 +373,23 @@ table tr td{
         left: 0;
         background-color: transparent;
         border: none;
-        padding: 8px 15px 8px 30px;
+        padding: 0 15px 0 30px;
         min-width: inherit;
+    }
+
+    .nav-wrap ul li ul li {
+        padding: 0;
+    }
+
+    .nav-wrap ul li ul li:hover {
+        background-color: transparent;
+    }
+
+    .nav-wrap ul li ul li a {
+        padding: 5px 0;
+    }
+
+    .nav-wrap ul li a:hover {
+        color: black;
     }
 }
