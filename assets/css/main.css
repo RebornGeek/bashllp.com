@@ -80,6 +80,10 @@ h3 {
     color: #8D9E93;
     font-size: 1.2em;
 }
+    h3 a {
+        color: #8D9E93;
+        text-decoration: none;
+    }
 
 p {
     margin-bottom: 10px;
@@ -87,6 +91,15 @@ p {
 
 ul {
     list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    -webkit-padding-start: 40px;
+}
+
+ol {
+    list-style-type: lower-roman;
     -webkit-margin-before: 1em;
     -webkit-margin-after: 1em;
     -webkit-margin-start: 0;
@@ -159,6 +172,85 @@ img.lawyer {
 
 .lawyer-block h3 {
     font-size: 18px;
+}
+
+.bio-left, .bio {
+    float: left;
+}
+
+.bio-left {
+    width: 30%;
+    text-align: center;
+}
+
+.bio-left img {
+    clear: right;
+    margin-bottom: 10px;
+}
+
+.bio-left h4 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #8D9E93;
+    margin-bottom: 10px;
+}
+
+.bio-left a {
+    color: black;
+}
+
+.bio {
+    width: 70%;
+}
+
+.bio h3 {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.bio h4 {
+    font-size: 16px;
+}
+
+.info-box {
+    float: left;
+    width: 30%;
+    max-width: 200px;
+}
+
+.info-box img {
+    margin-bottom: 10px;
+}
+
+table {
+    margin-bottom: 15px;
+}
+
+table tr td{
+    padding: 3px 10px;
+}
+
+.left {
+    float: left;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.text-16 {
+    font-size: 16px;
+}
+
+.green {
+    color: #8D9E93;
+}
+
+.privacy-policy h4 {
+    color: #A9A097;
+    font-size: 13px;
+    margin-bottom: 15px;
+    margin-top: 25px;
 }
 
 /* Nav Menu */

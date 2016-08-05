@@ -38,13 +38,12 @@
                 </li>
                 <li><a href="/lawyers.php">Lawyers</a>
                     <ul>
-                        <li><a href="/lawyers/tchbaldwin.php">Thomas C.H. Baldwin, Q.C.</a></li>
-                        <li><a href="/lawyers/asennecke.php">Alexander Sennecke</a></li>
-                        <li><a href="/lawyers/jhalman.php">Jeffrey Halman</a></li>
-                        <li><a href="/lawyers/etingley.php">Evan L. Tingley</a></li>
-                        <li><a href="/lawyers/mpajo.php">Mati E Pajo</a></li>
-                        <li><a href="/lawyers/stint.php">Sylvia L. Tint</a></li>
-                        <li><a href="/lawyers/dtwhite.php">Dylan T. White</a></li>
+                        <li><a href="/lawyers/baldwin.php">Thomas C.H. Baldwin, Q.C.</a></li>
+                        <li><a href="/lawyers/sennecke.php">Alexander Sennecke</a></li>
+                        <li><a href="/lawyers/halman.php">Jeffrey Halman</a></li>
+                        <li><a href="/lawyers/tingley.php">Evan L. Tingley</a></li>
+                        <li><a href="/lawyers/pajo.php">Mati E Pajo</a></li>
+                        <li><a href="/lawyers/tint.php">Sylvia L. Tint</a></li>
                     </ul>
                 </li>
                 <li><a href="/map-directions.php">Map &amp; Directions</a></li>
@@ -59,9 +58,11 @@
         <?php echo content(); ?>
     </div>
 
+    <div class="clear"></div>
+    
     <footer>
         <p>VICTORIA TOWER &#8226; 25 ADELAIDE STREET EAST &#8226; SUITE 900 &#8226; TORONTO &#8226; ONTARIO &#8226; M5C 3A1
-        <br> Copyright &copy;. Baldwin Sennecke Halman LLP. All rights reserved.</p>
+        <br> Copyright <?=date('Y') ?>. Baldwin Sennecke Halman LLP. All rights reserved.</p>
     </footer>
 </body>
 </html>

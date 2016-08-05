@@ -1,5 +1,5 @@
 <?php
-include('assets/php/page-template.php');
+include($_SERVER['DOCUMENT_ROOT'].'/assets/php/page-template.php');
 
 function head(){
 
