@@ -1,10 +1,14 @@
 $(document).ready(function(){
 
-    if($(window).width() > 991){
-        $('.nav-wrap ul li').hover(function(){
-            $(this).find('ul').toggle();
-        });
-    }
+    $(window).resize(function() {
+        if($(window).width() > 768){
+
+
+            $('ul.menu').css({'display':''});
+        }else {
+            $('ul.menu').css({'display':'none'});
+        }
+    });
 
     $('.mobile-menu-icon').click(function(){
         $('ul.menu').toggle();

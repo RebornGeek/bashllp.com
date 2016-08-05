@@ -290,6 +290,9 @@ table tr td{
     position: relative;
     padding-bottom: 7px;
 }
+    .nav-wrap ul li:hover ul {
+        display: block;
+    }
     .nav-wrap ul li a:hover {
         color: #A9A097;
     }
@@ -339,7 +342,7 @@ table tr td{
     }
 
 /* Tablet View */
-@media screen and (max-width: 991px){
+@media screen and (max-width: 768px){
     .mobile-menu-icon {
         display: block;
     }
