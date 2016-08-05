@@ -21,7 +21,8 @@
 
     <nav>
         <div class="nav-wrap">
-            <ul>
+            <div class="mobile-menu-icon"><span>&#9776;</span></div>
+            <ul class="menu">
                 <li><a href="/">Home</a></li>
                 <li><a href="/areas-of-law.php">Areas of Law</a>
                     <ul>

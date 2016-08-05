@@ -17,6 +17,6 @@ function head(){
 
     <div class="small-spacer"></div>
 
-    <img src="/assets/images/frontpage-tm.jpg" alt="frontpage-tm" />
+    <img src="/assets/images/frontpage-tm.jpg" alt="frontpage-tm" class="img-responsive" />
 
 <?php } ?>

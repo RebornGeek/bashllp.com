@@ -1,7 +1,12 @@
 $(document).ready(function(){
-    $('.nav-wrap ul li').hover(function(){
-        $(this).find('ul').show();
-    }, function(){
-        $(this).find('ul').hide();
+
+    if($(window).width() > 991){
+        $('.nav-wrap ul li').hover(function(){
+            $(this).find('ul').toggle();
+        });
+    }
+
+    $('.mobile-menu-icon').click(function(){
+        $('ul.menu').toggle();
     });
 });

@@ -122,13 +122,19 @@ footer {
     left: 0;
     right: 0;
     width: 100%;
-    height: 62px;
     box-sizing: border-box;
 }
+    footer p {
+        margin-bottom: 0;
+    }
 
 .logo-wrapper, .nav-wrap, .content {
     max-width: 985px;
     margin: 0 auto;
+}
+
+.nav-wrap, .content {
+    padding: 0 15px;
 }
 
 nav {
@@ -154,7 +160,7 @@ nav {
 
 .logo-wrapper {
     text-align: right;
-    padding: 35px 0;
+    padding: 35px 15px;
 }
 
 .clear {
@@ -253,6 +259,11 @@ table tr td{
     margin-top: 25px;
 }
 
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
 /* Nav Menu */
 .nav-wrap {
     font-size: 1.15em;
@@ -310,3 +321,54 @@ table tr td{
     .nav-wrap ul li ul li a:hover {
         color: black;
     }
+
+/* Mobile Menu */
+.mobile-menu-icon {
+    cursor: pointer;
+    display: none;
+    font-size: 30px;
+    text-align: center;
+    background-color: #eee;
+    width: 40px;
+    height: 40px;
+}
+
+/* Tablet View */
+@media screen and (max-width: 991px){
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    ul.menu {
+        display: none;
+    }
+
+    .nav-wrap ul {
+        background-color: #eee;
+        padding: 8px 0;
+    }
+
+    .nav-wrap ul li {
+        padding-right: 0;
+        float: none;
+        display: block;
+        padding-bottom: 0;
+    }
+
+    .nav-wrap ul li a {
+        padding: 7px 15px;
+        display: block;
+
+    }
+
+    .nav-wrap ul li ul {
+        display: block;
+        position: relative;
+        top: 0;
+        left: 0;
+        background-color: transparent;
+        border: none;
+        padding: 8px 15px 8px 30px;
+        min-width: inherit;
+    }
+}
