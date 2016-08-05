@@ -26,6 +26,16 @@ function head(){
         <p>Called to the Ontario Bar, 1987.</p>
         <p>Alexander has 20 years experience representing German speaking clients doing business in Ontario with a special focus on German-Canadian cross border corpor</p>
         <p><a href="">Read More...</a></p>
+        <div class="clear"></div>
+    </div>
+
+    <div class="lawyer-block">
+        <img src="/assets/images/lawyers/halman.jpg" alt="Halman" class="lawyer img-responsive" />
+        <h3>Jeffrey Halman</h3>
+        <p>Called to the Ontario Bar, 1987.</p>
+        <p>Jeff Halman specializes in all aspects of real estate law, including: buying, selling and financing commercial, residential and hospitality industry propert</p>
+        <p><a href="">Read More...</a></p>
+        <div class="clear"></div>
     </div>
 
 <?php } ?>
