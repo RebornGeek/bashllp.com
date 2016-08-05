@@ -30,7 +30,7 @@ function head(){
     
     <div id="phocamaps">
         <div class="phocamaps-box" align="center" style="margin:0;padding:0;margin-top:10px;">
-            <div id="phocaMap" style="margin:0;padding:0;width:700px;height:370px"></div>
+            <div id="phocaMap" style="margin:0;padding:0;max-width:700px;height:370px"></div>
         </div>
         <div class="pmroute">
             <form action="#" onsubmit="setPhocaDir(this.pmfrom.value, this.pmto.value); return false;">From (address):

@@ -395,4 +395,45 @@ table tr td{
     .nav-wrap ul li a:hover {
         color: black;
     }
+
+    .bio {
+        padding-top: 20px;
+        width: 100%;
+    }
+
+    .bio-left {
+        float: none;
+        text-align: left;
+        width: 100%;
+    }
+
+    .bio-left img {
+        margin-right: 20px;
+    }
+
+    .bio-contact, .bio-left img {
+        text-align: left;
+        float: left;
+    }
+
+    .info-box {
+        width: 100%;
+        float: none;
+    }
+
+    .left.half-width {
+        float: none;
+        width: 100%;
+    }
+
+    .left.half-width:last-child {
+        margin-top: 20px;
+    }
+}
+
+/* Mobile View */
+@media screen and (max-width: 500px){
+    body {
+        padding-bottom: 120px;
+    }
 }

@@ -13,15 +13,19 @@ function head(){
     
     <div class="bio-left">
         <img src="/assets/images/lawyers/pajo.jpg" alt="Pajo" class="img-responsive" />
-      
-        <h4>Telephone</h4>
-        <p>416.601.0221</p>
-        
-        <h4>Facsimile</h4>
-        <p>416.601.0655</p>
-        
-        <h4>Email</h4>
-        <a href="mailto:mpajo@bashllp.com">mpajo@bashllp.com</a>
+
+        <div class="bio-contact">
+            <h4>Telephone</h4>
+            <p>416.601.0221</p>
+
+            <h4>Facsimile</h4>
+            <p>416.601.0655</p>
+
+            <h4>Email</h4>
+            <a href="mailto:mpajo@bashllp.com">mpajo@bashllp.com</a>
+        </div>
+
+        <div class="clear"></div>
     </div>
     
     <div class="bio">

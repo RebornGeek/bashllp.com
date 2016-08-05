@@ -13,15 +13,19 @@ function head(){
     
     <div class="bio-left">
         <img src="/assets/images/lawyers/sennecke.jpg" alt="Sennecke" class="img-responsive" />
-      
-        <h4>Telephone</h4>
-        <p>416.410.2113</p>
-        
-        <h4>Facsimile</h4>
-        <p>416.410.9423</p>
-        
-        <h4>Email</h4>
-        <a href="mailto:asennecke@sennecke.com">asennecke@sennecke.com</a>
+
+        <div class="bio-contact">
+            <h4>Telephone</h4>
+            <p>416.410.2113</p>
+
+            <h4>Facsimile</h4>
+            <p>416.410.9423</p>
+
+            <h4>Email</h4>
+            <a href="mailto:asennecke@sennecke.com">asennecke@sennecke.com</a>
+        </div>
+
+        <div class="clear"></div>
     </div>
     
     <div class="bio">
